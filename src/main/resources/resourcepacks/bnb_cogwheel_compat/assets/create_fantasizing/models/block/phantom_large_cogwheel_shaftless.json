@@ -1,0 +1,8 @@
+{
+  "parent": "bits_n_bobs:block/default_large_cogwheel_shaftless",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "4": "create_fantasizing:block/phantom_large_cogwheel",
+    "particle": "create_fantasizing:block/phantom_shaft"
+  }
+}

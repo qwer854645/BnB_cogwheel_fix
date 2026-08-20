@@ -1,0 +1,34 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "bnb_cogwheel_compat"
+version = "${mod_version}"
+displayName = "BnB Cogwheel Compat"
+authors = "CCQ"
+description = '''
+Fixes Create / Northstar / Fantasizing cogwheel textures under Bits 'n' Bobs 2.2+.
+When BnB is present, enables a built-in resource pack that retargets cogwheel models onto bits_n_bobs:block/default_cogwheel*.
+'''
+
+[[dependencies.bnb_cogwheel_compat]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bnb_cogwheel_compat]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.bnb_cogwheel_compat]]
+modId = "bits_n_bobs"
+type = "optional"
+versionRange = "*"
+ordering = "NONE"
+side = "CLIENT"
