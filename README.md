@@ -37,6 +37,11 @@ gradlew.bat build
 
 Output: `build/libs/bnb_cogwheel_compat-<version>.jar`
 
+## Download
+
+- Release: https://github.com/qwer854645/BnB_cogwheel_fix/releases/tag/v1.0.0
+- Also in repo: [`dist/bnb_cogwheel_compat-1.0.0.jar`](https://github.com/qwer854645/BnB_cogwheel_fix/tree/main/dist)
+
 ## In-game
 
 Keep the built-in pack enabled:
